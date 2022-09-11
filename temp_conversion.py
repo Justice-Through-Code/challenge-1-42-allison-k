@@ -1,6 +1,6 @@
 
 def convert_100_to_celsius():
-    celcius_100 = 100 - 32 * (5/9)
+    celcius_100 = (100 - 32) * (5/9)
     print(celcius_100)
     print("float")
 
@@ -13,8 +13,8 @@ convert_100_to_celsius()
 
 
 def convert_0_to_celsius():
-    celcius_0 = 0 - 32 * (5/9)
-    print(celcius_0)
+    celsius_0 = (0 - 32) * (5/9)
+    print(celsius_0)
 
 convert_0_to_celsius()
     # Convert a temperature of 0 degrees fahrenheit to celsius
@@ -22,7 +22,7 @@ convert_0_to_celsius()
 
 
 def convert_34_2_to_celsius():
-    print(34.2 - 32 * (5/9))
+    print((34.2 - 32) * (5/9))
 
 convert_34_2_to_celsius()
     # Convert a temperature of 34.2 degrees fahrenheit to celsius
@@ -33,13 +33,12 @@ Now, can you convert back?
 '''
 
 def convert_5_to_fahrenheit():
-    print(5 + 32 * (9/5))
+    print((5 * 9/5) +32)
     # Convert a temperature of 5 degrees celsius to fahrenheit and print it out
 convert_5_to_fahrenheit()
 
 def hotter_temp():
-    celcius = 30.2 + 32 * (9/5)
-    farenheit = 85.1 - 32 * (5/9)
+    celcius = (30.2 + 32) * (9/5)
     if celcius > 85.1:
         print("30.2 degrees celcius")
     else:
