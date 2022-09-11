@@ -38,9 +38,9 @@ def convert_5_to_fahrenheit():
 convert_5_to_fahrenheit()
 
 def hotter_temp():
-    celcius = (30.2 + 32) * (9/5)
-    if celcius > 85.1:
-        print("30.2 degrees celcius")
+    celsius = (30.2 + 32) * (9/5)
+    if celsius > 85.1:
+        print("30.2 degrees celsius")
     else:
         print("85.1 degreese farenheit")
 
